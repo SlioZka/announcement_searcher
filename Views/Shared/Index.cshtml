@@ -8,11 +8,12 @@
 <html>
 <head>
     <title>Стіна оголошень</title>
+    <link href="~/Styles.css" rel="stylesheet" />
 </head>
 <body>
-    <h3>Оголошення</h3>
-    <div>
-        <a href="~/Home/Create">Створити оголошення</a>
+    <h1>Онлайн оголошення "Пошуківка"</h1>
+    <div >
+        <a href="~/Home/Create" class="create-btn">Створити оголошення</a>
     </div>
     <table>
         <tr>
@@ -25,7 +26,7 @@
             <tr>
                 <td>@announc.Title</td>
                 <td>@announc.Date</td>
-                <td><a href="~/Home/Details/@announc.Id">Детальніше</a></td>
+                <td><a href="~/Home/Details/@announc.Id" class="details-ref">Детальніше</a></td>
             </tr>
         }
     </table>

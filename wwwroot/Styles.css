@@ -1,0 +1,32 @@
+﻿body {
+    background-color: lightgrey;
+
+}
+h1 {
+    text-align: center;
+}
+.create-btn {
+    display: inline-block;
+    background-color: black;
+    color: lightgray;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+a{
+    text-decoration: none;
+    color: #0f7afc;
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(15, 122, 252, 0.2);
+    margin: 3px;
+}
+a:hover {
+        text-decoration: none;
+        color: #cf0000;
+        border-bottom-color: rgba(208, 64, 0, 0.2);
+    }

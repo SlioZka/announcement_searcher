@@ -2,25 +2,27 @@
     Layout = null;
 }
 <title>Нове оголошення</title>
+<link href="~/Styles.css" rel="stylesheet" />
 <body>
     <h1>Форма для створення нового оголошення</h1>
     <form method="post">
-            <table>
-                <tr>
-                    <td>Назва</td>
-                    <td><input type="text" name="Title" required /></td>
-                </tr>
-                <tr>
-                    <td>Опис</td>
-                    <td><input type="text" name="Description" required /></td>
-                </tr>
-                <tr>
-                    <td>Дата</td>
-                    <td><input type="text" name="Date" required /></td>
-                </tr>
-                <tr>
-                    <td><input type="submit" value="Створити" /></td>
-                </tr>
-            </table>
+        <table>
+            <tr>
+                <td>Назва</td>
+                <td><input type="text" name="Title" required /></td>
+            </tr>
+            <tr>
+                <td>Опис</td>
+                <td><input type="text" name="Description" required /></td>
+            </tr>
+            <tr>
+                <td>Дата</td>
+                <td><input type="text" name="Date" required /></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Створити" class="create-btn" /></td>
+            </tr>
+        </table>
     </form>
+    <p><a href="~/">На головну</a></p>
 </body>
